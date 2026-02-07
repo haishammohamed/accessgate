@@ -4,6 +4,7 @@ ROLE_PERMISSIONS = {
     "admin": {"view", "edit", "delete", "admin_panel"},
     "staff": {"view", "edit"},
     "guest": {"view"},
+    "manager": {"view", "edit"},
 }
 
 VALID_ACTIONS = {"view", "edit", "delete", "admin_panel"}
